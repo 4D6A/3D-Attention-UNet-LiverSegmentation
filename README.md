@@ -21,6 +21,7 @@ Accurate segmentation of liver tumors with irregular boundaries in low-contrast 
 - Residual connections for deep feature learning
 
 ## 📂 Project Structure
+```bash
 3D-Attention-UNet-LiverSegmentation/
 │── data/                  # dataset (if not too large, otherwise use Kaggle/Drive)
 │── models/                # model architectures
@@ -32,9 +33,10 @@ Accurate segmentation of liver tumors with irregular boundaries in low-contrast 
 │── README.md              # project description
 │── train.py               # training script
 │── inference.py           # inference script
-
+```
 ## 🛠️ Installation
 ```bash
 git clone https://github.com/your-username/3D-Attention-UNet-LiverSegmentation.git
 cd 3D-Attention-UNet-LiverSegmentation
 pip install -r requirements.txt
+```
