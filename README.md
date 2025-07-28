@@ -25,3 +25,17 @@ Accurate segmentation of liver tumors with irregular boundaries in low-contrast 
 git clone https://github.com/your-username/3D-Attention-UNet-LiverSegmentation.git
 cd 3D-Attention-UNet-LiverSegmentation
 pip install -r requirements.txt
+
+## Project Structure
+3D-Attention-UNet-LiverSegmentation/
+│── data/                  # dataset (if not too large, otherwise use Kaggle/Drive)
+│── models/                # model architectures
+│   └── attention_unet.py
+│── notebooks/             # Colab notebooks
+│   └── liver_segmentation.ipynb
+│── utils/                 # helper functions (data loading, preprocessing, etc.)
+│── requirements.txt       # dependencies (TensorFlow, etc.)
+│── README.md              # project description
+│── train.py               # training script
+│── inference.py           # inference script
+
