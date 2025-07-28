@@ -10,7 +10,7 @@ This project implements a 3D U-Net architecture enhanced with gated attention me
 ## 🎯 Problem Statement
 Accurate segmentation of liver tumors with irregular boundaries in low-contrast CT scans is a challenging task. This model aims to improve segmentation performance using attention mechanisms that focus on relevant spatial features.
 
-## 📂 Dataset
+## 📊 Dataset
 - **Source**: Medical Segmentation Decathlon (Task03_Liver)
 - **Format**: NIfTI (.nii.gz)
 - **Preprocessing**: Resampling, normalization, and patch extraction
@@ -20,13 +20,7 @@ Accurate segmentation of liver tumors with irregular boundaries in low-contrast 
 - Gated attention blocks in skip connections
 - Residual connections for deep feature learning
 
-## 🛠️ Installation
-```bash
-git clone https://github.com/your-username/3D-Attention-UNet-LiverSegmentation.git
-cd 3D-Attention-UNet-LiverSegmentation
-pip install -r requirements.txt
-
-## Project Structure
+## 📂 Project Structure
 3D-Attention-UNet-LiverSegmentation/
 │── data/                  # dataset (if not too large, otherwise use Kaggle/Drive)
 │── models/                # model architectures
@@ -39,3 +33,8 @@ pip install -r requirements.txt
 │── train.py               # training script
 │── inference.py           # inference script
 
+## 🛠️ Installation
+```bash
+git clone https://github.com/your-username/3D-Attention-UNet-LiverSegmentation.git
+cd 3D-Attention-UNet-LiverSegmentation
+pip install -r requirements.txt
